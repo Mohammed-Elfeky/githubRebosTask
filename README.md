@@ -1,5 +1,7 @@
 As a User I should be able to keep scrolling and new results should appear:
-for that: 
+
+for that:
+
 -i used the Intersection Observer API i put a loader div with a ref  inside the div where i map the repos 
 -whenever the loader div intersects with the viewport the Observer handler function triggers 
 -inside the Observer handler function i change the page state 
