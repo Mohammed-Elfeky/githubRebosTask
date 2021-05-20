@@ -20,3 +20,5 @@ for that:
 -i used the numeral library to format the  stars number
 
 -i used the moment library to format the time interval 
+
+-live preview :https://hardcore-ritchie-cd0588.netlify.app
