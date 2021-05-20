@@ -1,0 +1,82 @@
+.SingleRepository{
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px 0;
+    box-shadow: rgba(51, 51, 51,.2) 0 0 16px;
+}
+@media(max-width:800px){
+    .SingleRepository{
+        flex-wrap: wrap;
+    }
+}
+
+.leftPart{
+    flex-basis: 20%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.leftPart img{
+    width: 100%;
+}
+
+@media(max-width:800px){
+    .leftPart{
+        flex-basis: 100%;
+    }
+}
+
+.rightPart{
+    flex-basis: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+@media(max-width:800px){
+    .rightPart{
+        flex-basis: 100%;
+    }
+}
+
+.Name{
+    font-size: 36px;
+    text-transform: capitalize;
+    color: #333333;
+    word-wrap: break-word
+}
+
+.description{
+    font-size: 14px;
+    color:#797979;
+    margin-bottom: 10px;
+    line-height: 10px;
+    line-height: 25px;
+}
+
+.bottomPart{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:800px){
+    .bottomPart{
+        flex-wrap: wrap;
+    }
+}
+
+.stars , .issues{
+    margin-right: 10px;
+    padding: 5px 15px;
+    border: 1px solid #333333;
+    border-radius: 10px;
+    transition: .2s all ease-in-out;
+    cursor: pointer;
+}
+@media(max-width:500px){
+    .stars{
+        margin-bottom: 5px;
+    }
+}
+
+.stars:hover , .issues:hover{
+    background-color: #333333;
+    color: white;
+}
