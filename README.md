@@ -19,4 +19,4 @@ for that:
 
 -i used the numeral library to format the  stars number
 
--i used the moment library to format the tome interval 
+-i used the moment library to format the time interval 
